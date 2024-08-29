@@ -1,0 +1,5 @@
+- Works on Windows 10, 8 & 7 for both 32-bit and 64-bit.
+- Enhanced network configuration presets with IPv6 support allow you to quickly switch between network configurations.
+- Allows complete configuration of any network adapter.
+- Command line options with entire software functionality available. You can select a preset from specified preset file to apply directly.
+- Update network card vendors list feature allows you to download latest vendor data (OUI) from IEEE.org.
