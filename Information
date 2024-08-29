@@ -1,3 +1,6 @@
 How does Technitium Mac Address Changer v6 (TMACV6) Work?
 
-This software just writes a value into the windows registry. When the Network Adapter Device is enabled, windows searches for the registry value 'NetworkAddress' in the key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1- 08002bE10318}\[ID of NIC e.g. 0001]. If a value is present, windows will use it as MAC address, if not, windows will use the hard coded manufacturer provided MAC address. Some Network Adapter drivers have this facility built-in. It can be found in the Advance settings tab in the Network Adapter's Device properties in Windows Device Manager.
+This software just writes a value into the windows registry. 
+When the Network Adapter Device is enabled, windows searches for the registry value 'NetworkAddress' in the key HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4D36E972-E325-11CE-BFC1- 08002bE10318}\[ID of NIC e.g. 0001]. 
+If a value is present, windows will use it as MAC address, if not, windows will use the hard coded manufacturer provided MAC address. 
+Some Network Adapter drivers have this facility built-in. It can be found in the Advance settings tab in the Network Adapter's Device properties in Windows Device Manager.
